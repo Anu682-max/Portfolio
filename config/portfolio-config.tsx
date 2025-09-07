@@ -88,7 +88,7 @@ export const socialLinks = {
   github: "https://github.com/Anu682-max/Anu682-max.git",
   instagram: "https://www.instagram.com/Sakura.______/",
   facebook: "https://www.facebook.com/Л'Г Ану",
-  email: "anulkhagvazaya5@gmail.com",
+  email: personalInfo.email,
   // Дэмжлэгийн холбоосууд / Support links
   buyMeCoffee: "https://quiz-app-c66t.vercel.app/", // "Buy me a coffee" холбоос / "Buy me a coffee" link
   paypal: "" // PayPal холбоос (хэрэгтэй бол)
