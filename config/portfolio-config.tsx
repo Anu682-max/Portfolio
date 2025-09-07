@@ -228,7 +228,7 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Burger Builder",
+    title: "Burger Build",
     description: "Advanced burger building simulation game",
     longDescription: "A fun and interactive web-based game that allows users to create and customize their own burgers. Players can choose from a variety of ingredients, sauces, and toppings to build the ultimate burger. The game features engaging graphics, sound effects, and a user-friendly interface.",
     image: "/Burger build.png",
@@ -244,6 +244,7 @@ export const projects = [
       "Batch processing capabilities",
       "No registration required"
     ],
+  },
   {
     id: 6,
     title: "FireMovie",
@@ -261,8 +262,8 @@ export const projects = [
       "Advanced search and filtering options",
       "Watchlist and favorites management",
       "Responsive design for mobile and desktop"
-    ]
-  }
+    ],
+  },
 ];
 
 // =============================================================================
@@ -288,7 +289,7 @@ export const experiences = [
     ],
     technologies: ["Customer Service", "Food & Beverage Service", "Team Collaboration"]
   },
-  {
+    {
     id: 2,
     title: "Part-time A",
     company: "Data Mongolia LLC",
