@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin, Clock, Coffee } from "lucide-react";
+import { SiGmail } from "react-icons/si";
 
 // =============================================================================
 // PERSONAL INFORMATION CONFIGURATION
@@ -88,7 +89,7 @@ export const socialLinks = {
   github: "https://github.com/Anu682-max/Anu682-max.git",
   instagram: "https://www.instagram.com/Sakura.______/",
   facebook: "https://www.facebook.com/Л'Г Ану",
-  email: personalInfo.email,
+  email: "anulkhagvazaya5@gmail.com",
   // Дэмжлэгийн холбоосууд / Support links
   buyMeCoffee: "https://quiz-app-c66t.vercel.app/", // "Buy me a coffee" холбоос / "Buy me a coffee" link
   paypal: "" // PayPal холбоос (хэрэгтэй бол)
