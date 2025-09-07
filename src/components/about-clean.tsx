@@ -34,7 +34,6 @@ export default function About() {
       <div className="absolute inset-0 opacity-20">
         <div className="h-full w-full bg-line-grid" />
       </div>
-      
       {/* Хэсгийн толгой / Section header */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -48,15 +47,13 @@ export default function About() {
           <User className="w-4 h-4 text-cyan-400" />
           <span className="text-cyan-400 font-mono text-sm">About Me</span>
         </div>
-        
         {/* Үндсэн гарчиг / Main title */}
         <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold bg-gradient-to-r from-cyan-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent mb-4">
           About Me
         </h2>
-        
         {/* Тайлбар / Description */}
         <p className="text-gray-300 text-lg max-w-2xl mx-auto leading-relaxed">
-          Passionate full-stack developer with expertise in modern web technologies.
+          {personalInfo.aboutSections?.mainDescription || personalInfo.bio}
         </p>
       </motion.div>
       
@@ -76,8 +73,8 @@ export default function About() {
               <div className="flex items-center gap-4 mb-8">
                 <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center p-1">
                   <Image
-                    src="/portfolio.jpg"
-                    alt="Baljir Profile"
+                    src={personalInfo.avatar}
+                    alt={personalInfo.name + " Profile"}
                     width={40}
                     height={40}
                     className="w-full h-full object-cover rounded-xl"
@@ -87,7 +84,7 @@ export default function About() {
                   <h3 className="text-2xl font-bold bg-gradient-to-r from-white to-cyan-200 bg-clip-text text-transparent">
                     {personalInfo.name}
                   </h3>
-                  <p className="text-purple-300 text-sm">Full-Stack Developer</p>
+                  <p className="text-purple-300 text-sm">{personalInfo.title}</p>
                 </div>
               </div>
 
@@ -166,14 +163,9 @@ export default function About() {
                         <>
                           {/* Fallback content if education data is not available */}
                           <div className="p-4 bg-white/5 rounded-xl border border-white/10">
-                            <h4 className="font-bold text-white">Mining Technology Engineering</h4>
-                            <p className="text-cyan-300 text-sm">モンゴル科学技術大学</p>
-                            <p className="text-gray-400 text-xs">2012年9月 - 2017年1月</p>
-                          </div>
-                          <div className="p-4 bg-white/5 rounded-xl border border-white/10">
-                            <h4 className="font-bold text-white">Exchange Student</h4>
-                            <p className="text-cyan-300 text-sm">日本の芝浦工業大学</p>
-                            <p className="text-gray-400 text-xs">2017年4月 - 2018年3月</p>
+                            <h4 className="font-bold text-white"></h4>
+                            <p className="text-cyan-300 text-sm">Mongolia National University</p>
+                            <p className="text-gray-400 text-xs">2018年9月 - 2024年5月</p>
                           </div>
                         </>
                       )}

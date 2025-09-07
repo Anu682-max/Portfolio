@@ -141,7 +141,7 @@ export const Footer = () => {
                   rel="noopener noreferrer"
                   className="text-sm sm:text-base text-muted-foreground hover:text-white transition-colors break-all"
                 >
-                  github.com/baljir0901
+                 https://github.com/Anu682-max/Anu682-max.git
                 </Link>
               </li>
             </ul>

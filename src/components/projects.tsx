@@ -7,12 +7,12 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { 
   ExternalLink, 
-  Github, 
-  Calendar,
+  Github,
   Filter,
   X,
   Play,
-  Settings
+  Settings,
+  Calendar
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -222,8 +222,6 @@ export default function Projects() {
                             {project.category}
                           </Badge>
                           <div className="flex items-center gap-1 text-xs text-gray-400">
-                            <Calendar className="w-3 h-3" />
-                            2024
                           </div>
                         </div>
                         <h3 className="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">

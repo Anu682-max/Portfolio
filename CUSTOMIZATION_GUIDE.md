@@ -23,7 +23,7 @@ export const personalInfo = {
   longBio: "Your detailed bio...",           // Longer description for about section
   avatar: "/your-photo.jpg",                 // Your photo (place in public folder)
   resumeUrl: "/your-resume.pdf",             // Your CV/Resume (place in public folder)
-  age: 25,                                   // Your age
+  age: 24,                                   // Your age
   nationality: "Your Country",               // Your nationality
   availability: "Available for work",        // Your work status
 };
@@ -80,7 +80,6 @@ export const projects = [
       "Feature 2",
       "Feature 3"
     ],
-    createdAt: "2024-01-01"
   },
   // Add more projects...
 ];
