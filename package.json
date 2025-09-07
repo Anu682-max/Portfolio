@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev",
+    "dev": "rimraf .next && next dev",
     "build": "rimraf .next && next build",
     "export": "next build && next export",
     "start": "next start",
