@@ -31,10 +31,12 @@ export const personalInfo = {
   description: "Welcome to my portfolio! I'm Anu, a passionate Full Stack Developer Student dedicated to crafting innovative web solutions. Explore my projects, skills, and journey in the world of web development.",
   
   // Зураг / Images
-  avatar: "/portfolio.jpg", // public фолдер дотор байрлуулна / Place in public folder
+  avatar: "/porfolio.png", // public фолдер дотор байрлуулна / Place in public folder (filename corrected)
   
   // Ажлын статус / Work Status
   availability: "Available for freelance projects",
+  // Resume URL (public folder)
+  resumeUrl: "/resume.pdf",
 
   // Хэлний мэдлэг / Language Skills
   languages: [
