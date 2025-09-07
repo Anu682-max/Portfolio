@@ -91,7 +91,7 @@ export const socialLinks = {
   facebook: "https://www.facebook.com/Л'Г Ану",
   email: "anulkhagvazaya5@gmail.com",
   // Дэмжлэгийн холбоосууд / Support links
-  buyMeCoffee: "https://quiz-app-c66t.vercel.app/", // "Buy me a coffee" холбоос / "Buy me a coffee" link
+  buyMeCoffee: "https://www.buymeacoffee.com/anulkhagvai", // "Buy me a coffee" холбоос / "Buy me a coffee" link
   paypal: "" // PayPal холбоос (хэрэгтэй бол)
 
 };
@@ -393,7 +393,7 @@ export const contactInfo = [
 // Дэмжлэгийн холбоосууд / Support links configuration
 export const supportLinks = {
   buyMeCoffee: {
-    url: "https://quiz-app-c66t.vercel.app/",
+    url: socialLinks.buyMeCoffee,
     text: "Buy me a coffee",
     icon: Coffee,
     enabled: true // false болговол харагдахгүй / Set to false to hide
