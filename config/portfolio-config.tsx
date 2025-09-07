@@ -228,13 +228,13 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Burger Build",
+    title: "Burger Builder",
     description: "Advanced burger building simulation game",
     longDescription: "A fun and interactive web-based game that allows users to create and customize their own burgers. Players can choose from a variety of ingredients, sauces, and toppings to build the ultimate burger. The game features engaging graphics, sound effects, and a user-friendly interface.",
     image: "/Burger build.png",
     technologies: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://github.com/Anu682-max/",
-    demoUrl: "https://burger-build.vercel.app/",
+    demoUrl: "https://burger-build-uadt.vercel.app/",
     category: "fullstack",
     features: [
       "PDF merge and split functionality",
@@ -244,7 +244,25 @@ export const projects = [
       "Batch processing capabilities",
       "No registration required"
     ],
-  },
+  {
+    id: 6,
+    title: "FireMovie",
+    description: "Comprehensive movie database and recommendation platform",
+    longDescription: " A dynamic web application that serves as a comprehensive movie database and recommendation platform. Users can search for movies, view detailed information, read reviews, and get personalized recommendations based on their viewing history and preferences.",
+    image: "/FireMovie.png",
+    technologies: ["React", "JavaScript", "CSS"],
+    githubUrl: "https://github.com/Anu682-max/",
+    demoUrl: "https://firemovie-git-main-anu682-maxs-projects.vercel.app/",
+    category: "fullstack",
+    features: [
+      "Extensive movie database",
+      "Personalized movie recommendations",
+      "User reviews and ratings",
+      "Advanced search and filtering options",
+      "Watchlist and favorites management",
+      "Responsive design for mobile and desktop"
+    ]
+  }
 ];
 
 // =============================================================================
