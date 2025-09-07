@@ -263,7 +263,7 @@ export default function Hero() {
               {/* Профайл зураг / Profile image */}
               <div className="absolute inset-2 rounded-full overflow-hidden border-4 border-gray-800">
                 <Image
-                  src="/portfolio.jpg"
+                  src={personalInfo.avatar}
                   alt={personalInfo.name}
                   fill
                   className="object-cover"
