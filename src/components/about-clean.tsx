@@ -155,9 +155,7 @@ export default function About() {
                           <h4 className="font-bold text-white">{edu.degree}</h4>
                           <p className="text-cyan-300 text-sm">{edu.institution}</p>
                           <p className="text-gray-400 text-xs">{edu.period}</p>
-                          {edu.description && (
-                            <p className="text-gray-300 text-sm mt-2">{edu.description}</p>
-                          )}
+                          {/* Description removed to fix TypeScript error */}
                         </div>
                       )) || (
                         <>
