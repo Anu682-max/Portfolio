@@ -10,7 +10,7 @@ We welcome all improvements, from small typo fixes to major feature additions.
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/baljir0901/my-portfolio.git
+git clone https://github.com/anu0901/my-portfolio.git
 cd my-portfolio
 npm install
 npm run dev
