@@ -128,7 +128,7 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
-                className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-tight"
+                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight"
               >
                 <span className="text-white font-normal">Hi, I&apos;m </span>
                 <motion.div
@@ -140,7 +140,7 @@ export default function Hero() {
                   {/* Автомат бичих анимаци / Typing animation */}
                   <TypeAnimation
                     sequence={[personalInfo.nickname.toUpperCase(), 3000, "アヌ", 3000, "FULLSTACK DEV", 3000]}
-                    className="text-4xl md:text-5xl font-black bg-gradient-to-r from-cyan-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent"
+                    className="text-3xl md:text-4xl font-black bg-gradient-to-r from-cyan-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent"
                     wrapper="span"
                     speed={50}
                     repeat={Number.POSITIVE_INFINITY}
@@ -159,20 +159,18 @@ export default function Hero() {
               </motion.h1>
 
               {/* Динамик текстийн анимаци / Dynamic text animation */}
-              <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-cyan-400/90 h-14 sm:h-16 lg:h-20 mb-6 font-mono">
+              <div className="text-base sm:text-lg md:text-xl lg:text-2xl text-cyan-400/80 h-12 sm:h-14 lg:h-16 mb-6 font-mono">
                 <TypeAnimation
                   sequence={[
-                    "> Initializing neural networks...",
+                    "> Building amazing web apps...",
                     2000,
-                    "> Compiling quantum algorithms...",
+                    "> Creating user experiences...",
                     2000,
-                    "> Deploying to the matrix...",
+                    "> Coding with passion...",
                     2000,
-                    "> Hacking the mainframe...",
+                    "> Ready to collaborate...",
                     2000,
-                    "> System online. Ready to code.",
-                    2000,
-                    "> Welcome to cyberspace",
+                    "> Let's build something great!",
                     2000,
                   ]}
                   wrapper="span"
@@ -183,7 +181,7 @@ export default function Hero() {
               </div>
 
               {/* Товч танилцуулга / Bio description */}
-              <p className="text-base sm:text-lg lg:text-xl text-white/70 max-w-2xl mx-auto lg:mx-0 mt-4 lg:mt-6 mb-8 leading-relaxed">
+              <p className="text-sm sm:text-base lg:text-lg text-white/70 max-w-xl mx-auto lg:mx-0 mt-3 lg:mt-4 mb-6 leading-relaxed">
                 {personalInfo.bio}
               </p>
 
