@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "rimraf .next && next build",
+    "export": "next build && next export",
     "start": "next start",
     "lint": "eslint .",
     "type-check": "tsc --noEmit"
@@ -43,6 +44,7 @@
     "@types/react-dom": "^18.2.0",
     "eslint": "^9",
     "eslint-config-next": "15.5.2",
+    "rimraf": "^6.0.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
