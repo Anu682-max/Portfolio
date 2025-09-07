@@ -89,6 +89,7 @@ export const socialLinks = {
   email: "anulkhagvazaya5@gmail.com",
   // Дэмжлэгийн холбоосууд / Support links
   buyMeCoffee: "https://quiz-app-c66t.vercel.app/", // "Buy me a coffee" холбоос / "Buy me a coffee" link
+  paypal: "" // PayPal холбоос (хэрэгтэй бол)
 
 };
 
