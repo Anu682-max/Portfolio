@@ -3,6 +3,8 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { projects as projectsFromConfig } from '../../config/portfolio-config';
 
+console.log('📦 Config-оос ирсэн projects:', projectsFromConfig?.length, projectsFromConfig);
+
 // Төслийн интерфейс тодорхойлолт / Project interface definition
 export interface Project {
   id: number;
