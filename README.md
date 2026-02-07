@@ -116,18 +116,17 @@ I am a passionate **Full-Stack Developer Student** currently living in Yokohama,
 ## 📊 GitHub Stats
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Anu682-max&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true" />
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Anu682-max&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true" alt="GitHub Stats" height="170" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Anu682-max&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=8" />
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Anu682-max&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=8" alt="Top Languages" height="170" />
-  </picture>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Anu682-max&theme=tokyonight" alt="GitHub Stats" height="170" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Anu682-max&theme=tokyonight" alt="Top Languages by Repo" height="170" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Anu682-max&theme=tokyonight" alt="Top Languages by Commit" height="170" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Anu682-max&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anu682-max&theme=tokyonight" alt="Profile Details" width="720" />
 </p>
 
 ---
