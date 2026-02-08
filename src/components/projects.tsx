@@ -171,13 +171,24 @@ export default function Projects() {
                   >
                     <Card className="bg-white/5 border-white/10 hover:border-cyan-400/50 transition-all duration-300 group-hover:shadow-xl group-hover:shadow-cyan-400/20 overflow-hidden h-full">
                       <div className="relative overflow-hidden">
-                        <Image
-                          src={project.image}
-                          alt={project.title}
-                          width={400}
-                          height={240}
-                          className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
-                        />
+                        {project.image.endsWith('.mp4') ? (
+                          <video
+                            src={project.image}
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
+                          />
+                        ) : (
+                          <Image
+                            src={project.image}
+                            alt={project.title}
+                            width={400}
+                            height={240}
+                            className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
+                          />
+                        )}
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                         <div className="absolute top-4 right-4">
                           <Badge className="bg-gradient-to-r from-cyan-500 to-purple-600 text-white border-0">
@@ -326,13 +337,25 @@ export default function Projects() {
               onClick={(e) => e.stopPropagation()}
             >
               <div className="relative">
-                <Image
-                  src={selectedProject.image}
-                  alt={selectedProject.title}
-                  width={800}
-                  height={400}
-                  className="w-full h-64 md:h-80 object-cover rounded-t-2xl"
-                />
+                {selectedProject.image.endsWith('.mp4') ? (
+                  <video
+                    src={selectedProject.image}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    controls
+                    className="w-full h-64 md:h-80 object-cover rounded-t-2xl"
+                  />
+                ) : (
+                  <Image
+                    src={selectedProject.image}
+                    alt={selectedProject.title}
+                    width={800}
+                    height={400}
+                    className="w-full h-64 md:h-80 object-cover rounded-t-2xl"
+                  />
+                )}
                 <Button
                   onClick={() => setSelectedProject(null)}
                   variant="ghost"
