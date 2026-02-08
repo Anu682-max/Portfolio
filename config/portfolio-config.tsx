@@ -172,7 +172,7 @@ export const projects = [
     title: "CatApp",
     description: "猫の写真を楽しめるインタラクティブなWebアプリ",
     longDescription: "猫の写真を閲覧・共有できるモダンなWebアプリケーションです。React、HTML、TypeScriptを使用して構築され、ユーザーフレンドリーなインターフェースで猫の写真を楽しむことができます。",
-    image: "/catapp.png",
+    image: "/CatApp.png",
     technologies: ["React", "HTML", "TypeScript"],
     githubUrl: "https://catphoto1.netlify.app/catapp",
     demoUrl: "https://catphoto1.netlify.app/",
