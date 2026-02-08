@@ -91,24 +91,23 @@ export const Footer = () => {
           {/* Quick Links Section */}
           <div className="sm:col-span-1">
             <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4 text-white">
-              Quick Links
+              クイックリンク
             </h3>
             <ul className="space-y-2 grid grid-cols-2 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-x-4 sm:gap-x-0">
               {[
-                "Home",
-                "About",
-                "Skills",
-                "Projects",
-                "Experience",
-                "Testimonials",
-                "Contact",
+                { id: "home", label: "ホーム" },
+                { id: "about", label: "自己紹介" },
+                { id: "skills", label: "スキル" },
+                { id: "projects", label: "プロジェクト" },
+                { id: "experience", label: "職歴" },
+                { id: "contact", label: "お問い合わせ" },
               ].map((item) => (
-                <li key={item}>
+                <li key={item.id}>
                   <Link
-                    href={`#${item.toLowerCase()}`}
+                    href={`#${item.id}`}
                     className="text-sm sm:text-base text-muted-foreground hover:text-white transition-colors block py-1"
                   >
-                    {item}
+                    {item.label}
                   </Link>
                 </li>
               ))}
@@ -118,7 +117,7 @@ export const Footer = () => {
           {/* Contact Info Section */}
           <div className="sm:col-span-1">
             <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4 text-white">
-              Contact Info
+              連絡先
             </h3>
             <ul className="space-y-3">
               {/* Email */}
@@ -152,7 +151,7 @@ export const Footer = () => {
         <div className="border-t border-slate-800 mt-8 sm:mt-12 pt-6 sm:pt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0">
             <p className="text-muted-foreground text-xs sm:text-sm text-center sm:text-left">
-              © {currentYear} {personalInfo.name}. All rights reserved.
+              © {currentYear} {personalInfo.name}. 全著作権所有。
             </p>
             {supportLinks.buyMeCoffee.enabled && (
               <a 

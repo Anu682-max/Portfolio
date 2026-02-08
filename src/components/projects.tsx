@@ -409,7 +409,7 @@ export default function Projects() {
                   </div>
                   
                   <div>
-                    <h3 className="text-xl font-bold text-white mb-4">Ашигласан технологи / Technologies Used</h3>
+                    <h3 className="text-xl font-bold text-white mb-4">使用技術</h3>
                     <div className="grid grid-cols-2 gap-2">
                       {selectedProject.technologies.map((tech) => (
                         <Badge
