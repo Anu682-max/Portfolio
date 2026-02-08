@@ -35,31 +35,31 @@ interface Skill {
 
 const skills: Skill[] = [
   // Frontend Skills
-  { name: "React", icon: SiReact, color: "#61DAFB", level: 95, category: "Frontend" },
-  { name: "Next.js", icon: SiNextdotjs, color: "#000000", level: 90, category: "Frontend" },
-  { name: "TypeScript", icon: SiTypescript, color: "#3178C6", level: 88, category: "Frontend" },
-  { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4", level: 92, category: "Frontend" },
-  { name: "HTML5", icon: SiHtml5, color: "#E34F26", level: 98, category: "Frontend" },
-  { name: "CSS3", icon: SiCss3, color: "#1572B6", level: 95, category: "Frontend" },
-  { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E", level: 93, category: "Frontend" },
+  { name: "React", icon: SiReact, color: "#61DAFB", level: 95, category: "フロントエンド" },
+  { name: "Next.js", icon: SiNextdotjs, color: "#000000", level: 90, category: "フロントエンド" },
+  { name: "TypeScript", icon: SiTypescript, color: "#3178C6", level: 88, category: "フロントエンド" },
+  { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4", level: 92, category: "フロントエンド" },
+  { name: "HTML5", icon: SiHtml5, color: "#E34F26", level: 98, category: "フロントエンド" },
+  { name: "CSS3", icon: SiCss3, color: "#1572B6", level: 95, category: "フロントエンド" },
+  { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E", level: 93, category: "フロントエンド" },
   
   // Backend Skills
-  { name: "Node.js", icon: SiNodedotjs, color: "#339933", level: 87, category: "Backend" },
-  { name: "Express", icon: SiExpress, color: "#000000", level: 85, category: "Backend" },
-  { name: "MongoDB", icon: SiMongodb, color: "#47A248", level: 82, category: "Backend" },
-  { name: "PostgreSQL", icon: SiPostgresql, color: "#336791", level: 80, category: "Backend" },
-  { name: "GraphQL", icon: SiGraphql, color: "#E10098", level: 75, category: "Backend" },
-  { name: "Prisma", icon: SiPrisma, color: "#2D3748", level: 78, category: "Backend" },
+  { name: "Node.js", icon: SiNodedotjs, color: "#339933", level: 87, category: "バックエンド" },
+  { name: "Express", icon: SiExpress, color: "#000000", level: 85, category: "バックエンド" },
+  { name: "MongoDB", icon: SiMongodb, color: "#47A248", level: 82, category: "バックエンド" },
+  { name: "PostgreSQL", icon: SiPostgresql, color: "#336791", level: 80, category: "バックエンド" },
+  { name: "GraphQL", icon: SiGraphql, color: "#E10098", level: 75, category: "バックエンド" },
+  { name: "Prisma", icon: SiPrisma, color: "#2D3748", level: 78, category: "バックエンド" },
   
   // DevOps & Tools
-  { name: "Git", icon: SiGit, color: "#F05032", level: 90, category: "DevOps" },
-  { name: "GitHub", icon: SiGithub, color: "#181717", level: 88, category: "DevOps" },
-  { name: "Docker", icon: SiDocker, color: "#2496ED", level: 70, category: "DevOps" },
-  { name: "Vercel", icon: SiVercel, color: "#000000", level: 85, category: "DevOps" },
-  { name: "Figma", icon: SiFigma, color: "#F24E1E", level: 82, category: "DevOps" },
-  { name: "Postman", icon: SiPostman, color: "#FF6C37", level: 85, category: "DevOps" },
-  { name: "Cypress", icon: SiCypress, color: "#17202C", level: 75, category: "DevOps" },
-  { name: "Render", icon: SiRender, color: "#46E3B7", level: 80, category: "DevOps" },
+  { name: "Git", icon: SiGit, color: "#F05032", level: 90, category: "ツール" },
+  { name: "GitHub", icon: SiGithub, color: "#181717", level: 88, category: "ツール" },
+  { name: "Docker", icon: SiDocker, color: "#2496ED", level: 70, category: "ツール" },
+  { name: "Vercel", icon: SiVercel, color: "#000000", level: 85, category: "ツール" },
+  { name: "Figma", icon: SiFigma, color: "#F24E1E", level: 82, category: "ツール" },
+  { name: "Postman", icon: SiPostman, color: "#FF6C37", level: 85, category: "ツール" },
+  { name: "Cypress", icon: SiCypress, color: "#17202C", level: 75, category: "ツール" },
+  { name: "Render", icon: SiRender, color: "#46E3B7", level: 80, category: "ツール" },
 ]
 
 const SkillCard = ({ skill }: { skill: Skill }) => {
@@ -109,7 +109,7 @@ const SkillCard = ({ skill }: { skill: Skill }) => {
         {/* Skill Level Bar */}
         <div className="relative mb-4">
           <div className="flex justify-between text-xs text-gray-400 mb-2">
-            <span>Proficiency</span>
+            <span>習熟度</span>
             <span>{skill.level}%</span>
           </div>
           <div className="h-3 bg-black/50 rounded-full overflow-hidden">
@@ -172,7 +172,7 @@ export default function Skills() {
           >
             <h2 className="text-4xl md:text-6xl font-black tracking-tight">
               <span className="bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                Skills & Technologies
+                スキル & テクノロジー
               </span>
             </h2>
             
