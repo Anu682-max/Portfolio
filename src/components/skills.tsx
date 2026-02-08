@@ -20,8 +20,14 @@ import {
   SiHtml5,
   SiCss3,
   SiJavascript,
-  SiRender,
+  SiNetlify,
   SiExpress,
+  SiAmazon,
+  SiStripe,
+  SiPython,
+  SiGoogle,
+  SiApple,
+  SiAndroid,
 } from "react-icons/si"
 import { motion } from "framer-motion"
 
@@ -38,18 +44,26 @@ const skills: Skill[] = [
   { name: "React", icon: SiReact, color: "#61DAFB", level: 95, category: "フロントエンド" },
   { name: "Next.js", icon: SiNextdotjs, color: "#000000", level: 90, category: "フロントエンド" },
   { name: "TypeScript", icon: SiTypescript, color: "#3178C6", level: 88, category: "フロントエンド" },
-  { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4", level: 92, category: "フロントエンド" },
-  { name: "HTML5", icon: SiHtml5, color: "#E34F26", level: 98, category: "フロントエンド" },
   { name: "CSS3", icon: SiCss3, color: "#1572B6", level: 95, category: "フロントエンド" },
   { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E", level: 93, category: "フロントエンド" },
   
   // Backend Skills
   { name: "Node.js", icon: SiNodedotjs, color: "#339933", level: 87, category: "バックエンド" },
+  { name: "Python", icon: SiPython, color: "#3776AB", level: 85, category: "バックエンド" },
   { name: "Express", icon: SiExpress, color: "#000000", level: 85, category: "バックエンド" },
   { name: "MongoDB", icon: SiMongodb, color: "#47A248", level: 82, category: "バックエンド" },
   { name: "PostgreSQL", icon: SiPostgresql, color: "#336791", level: 80, category: "バックエンド" },
   { name: "GraphQL", icon: SiGraphql, color: "#E10098", level: 75, category: "バックエンド" },
-  { name: "Prisma", icon: SiPrisma, color: "#2D3748", level: 78, category: "バックエンド" },
+  
+  // Cloud & Services
+  { name: "AWS", icon: SiAmazon, color: "#FF9900", level: 82, category: "クラウド" },
+  { name: "Google Cloud", icon: SiGoogle, color: "#4285F4", level: 78, category: "クラウド" },
+  { name: "Stripe", icon: SiStripe, color: "#008CDD", level: 85, category: "クラウド" },
+  { name: "QPay", icon: SiStripe, color: "#00B4D8", level: 80, category: "クラウド" },
+  
+  // Mobile
+  { name: "iOS", icon: SiApple, color: "#000000", level: 75, category: "モバイル" },
+  { name: "Android", icon: SiAndroid, color: "#3DDC84", level: 75, category: "モバイル" },
   
   // DevOps & Tools
   { name: "Git", icon: SiGit, color: "#F05032", level: 90, category: "ツール" },
@@ -59,7 +73,7 @@ const skills: Skill[] = [
   { name: "Figma", icon: SiFigma, color: "#F24E1E", level: 82, category: "ツール" },
   { name: "Postman", icon: SiPostman, color: "#FF6C37", level: 85, category: "ツール" },
   { name: "Cypress", icon: SiCypress, color: "#17202C", level: 75, category: "ツール" },
-  { name: "Render", icon: SiRender, color: "#46E3B7", level: 80, category: "ツール" },
+  { name: "Netlify", icon: SiNetlify, color: "#46E3B7", level: 80, category: "ツール" },
 ]
 
 const SkillCard = ({ skill }: { skill: Skill }) => {

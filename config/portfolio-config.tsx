@@ -14,9 +14,9 @@ export const personalInfo = {
   
   // Холбоо барих мэдээлэл / Contact Information
   email: "anulkhagvazaya5@gmail.com",
-  phone: "070-8530-3840",
-  location: "Yokohama, Japan",
-  address: "Yokohama, Japan",
+  phone: "070-8530-3580",
+  location: "横浜市緑区、神奈川県",
+  address: "〒225-0026 神奈川県横浜市緑区十日市場ホウメステW-529",
   
   // Хувийн мэдээлэл / Personal Details
   nationality: "Mongolia",
@@ -57,27 +57,44 @@ export const personalInfo = {
   education: [
     {
       id: 1,
-      degree: "Mongolian National University",
-      institution: "モンゴル大学",
-      institutionEn: "Mongolia University of Medicine and Technology",
+      degree: "モンゴル国立大学 医学部",
+      institution: "ウランバートル国立大学 医学部（医者のクラス）",
+      institutionEn: "Mongolia National University - Faculty of Medicine",
       period: "2018年9月 - 2024年5月",
-      type: "Bachelor's Degree",
+      type: "学士号",
     },
     {
       id: 2,
-      degree: "WESTCOAST Language School",
-      institution: "日本語学校",
-      institutionEn: "WESTCOAST Language School, Japan",
-      period: "2014年4月 - 勉強中",
-      type: "Language School",
+      degree: "ウエストコースト語学院",
+      institution: "東京都大田区東峰町",
+      institutionEn: "WESTCOAST Language School, Tokyo",
+      period: "2024年7月 - 2026年3月（卒業予定）",
+      type: "日本語学校",
     },
+    {
+      id: 3,
+      degree: "Full Stack Deployment",
+      institution: "オンライン学習",
+      institutionEn: "Online Course",
+      period: "2025年6月 - 2026年3月（卒業予定）",
+      type: "オンライン",
+    },
+  ],
+
+  // 免許・資格 / Certifications
+  certifications: [
+    { year: "2024年6月", name: "バイクの運転免許" },
+    { year: "2024年12月", name: "日本語能力試験 N4 合格" },
+    { year: "2025年7月", name: "日本語能力試験 N3 合格" },
+    { year: "2026年1月", name: "介護日本語評価テスト（日本語）合格" },
+    { year: "2026年1月", name: "介護評価試験（モンゴル語）合格" },
   ],
   
   // Миний тухай / About Me sections
   aboutSections: {
-    mainDescription: "最新のWeb技術に精通したフルスタック開発者です。革新的なソリューションを作り、コードでアイデアを実現することが大好きです。",
-    detailedDescription: "フロントエンドとバックエンドの両方に強い基盤を持つフルスタック開発者の学生です。Web開発の旅は、裏側の仕組みへの好奇心から始まり、さまざまなプログラミング言語やフレームワークを探求してきました。実世界の問題を解決するユーザーフレンドリーなアプリケーションの開発に特に興味があります。",
-    professionalSummary: "革新的なWebソリューションの開発に情熱を持つフルスタック開発者の学生です。フロントエンドとバックエンドの両方の経験を活かし、シームレスで効率的なアプリケーションを構築します。常に新しい技術を学び、高品質な成果を提供します。",
+    mainDescription: "ITの基礎知識と医療分野への強い関心を持っています。プログラミングやデータ管理を学ぶ中で、問題を整理し、分かりやすくまとめる力を身につけました。丁寧で正確に作業することが得意で、新しいことを積極的に学び、現場で役立つ人材を目指しています。",
+    detailedDescription: "視覚的に整理し、分かりやすく伝える力に自信があります。複雑な情報を図や表でまとめ、誰にでも理解しやすい形にすることが得意です。このスキルは、医療スタッフとのコミュニケーションやシステム導入時の説明など、現場で大きく役立つと考えています。",
+    professionalSummary: "常に向上心を持ち、新しい技術を積極的に吸収しながら、医療の発展に貢献できるエンジニアを目指しています。フロントエンドとバックエンドの両方の経験を活かし、シームレスで効率的なアプリケーションを構築します。",
   }
 };
 
@@ -87,11 +104,11 @@ export const personalInfo = {
 // Нийгмийн сүлжээ болон гадаад холбоосууд / Social media and external links
 export const socialLinks = {
   github: "https://github.com/Anu682-max/Portfolio",
-  instagram: "https://www.instagram.com/maris______/",
+  instagram: "https://www.instagram.com/maris______________________",
   facebook: "https://www.facebook.com/Л'Г Ану",
   email: "anulkhagvazaya5@gmail.com",
   // Дэмжлэгийн холбоосууд / Support links
-  buyMeCoffee: "https://www.buymeacoffee.com/anulkhagvai", // "Buy me a coffee" холбоос / "Buy me a coffee" link
+  buyMeCoffee: "https://buymeacoffee.com/anulkhagvai", // "Buy me a coffee" холбоос / "Buy me a coffee" link
   paypal: "" // PayPal холбоос (хэрэгтэй бол)
 
 };

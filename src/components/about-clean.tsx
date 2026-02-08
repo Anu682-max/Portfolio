@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import { Award, GraduationCap, Download, User } from "lucide-react";
+import { Award, GraduationCap, Download, User, ShieldCheck } from "lucide-react";
 import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useRef } from "react";
@@ -45,11 +45,11 @@ export default function About() {
         {/* Хэсгийн тэмдэг / Section badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 border border-cyan-500/30 backdrop-blur-sm mb-6">
           <User className="w-4 h-4 text-cyan-400" />
-          <span className="text-cyan-400 font-mono text-sm">About Me</span>
+          <span className="text-cyan-400 font-mono text-sm">自己紹介</span>
         </div>
         {/* Үндсэн гарчиг / Main title */}
         <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold bg-gradient-to-r from-cyan-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent mb-4">
-          About Me
+          自己紹介
         </h2>
         {/* Тайлбар / Description */}
         <p className="text-gray-300 text-lg max-w-2xl mx-auto leading-relaxed">
@@ -109,72 +109,97 @@ export default function About() {
 
               {/* Табууд / Tabs section */}
               <Tabs defaultValue="about" className="w-full">
-                <TabsList className="grid w-full grid-cols-3 gap-2 bg-transparent p-0 h-auto mb-8">
-                  <TabsTrigger 
-                    value="about" 
+                <TabsList className="grid w-full grid-cols-4 gap-2 bg-transparent p-0 h-auto mb-8">
+                  <TabsTrigger
+                    value="about"
                     className="relative bg-gradient-to-r from-white/10 to-white/5 border border-white/20 rounded-xl py-3 text-white hover:from-cyan-400/20 hover:to-purple-400/20 hover:border-cyan-400/50 data-[state=active]:from-cyan-400/30 data-[state=active]:to-purple-400/30 data-[state=active]:border-cyan-400 data-[state=active]:text-cyan-100 transition-all duration-300"
                   >
-                    About
+                    自己PR
                   </TabsTrigger>
-                  <TabsTrigger 
-                    value="education" 
+                  <TabsTrigger
+                    value="education"
                     className="relative bg-gradient-to-r from-white/10 to-white/5 border border-white/20 rounded-xl py-3 text-white hover:from-cyan-400/20 hover:to-purple-400/20 hover:border-cyan-400/50 data-[state=active]:from-cyan-400/30 data-[state=active]:to-purple-400/30 data-[state=active]:border-cyan-400 data-[state=active]:text-cyan-100 transition-all duration-300"
                   >
-                    Education
+                    学歴
                   </TabsTrigger>
-                  <TabsTrigger 
-                    value="interests" 
+                  <TabsTrigger
+                    value="certifications"
                     className="relative bg-gradient-to-r from-white/10 to-white/5 border border-white/20 rounded-xl py-3 text-white hover:from-cyan-400/20 hover:to-purple-400/20 hover:border-cyan-400/50 data-[state=active]:from-cyan-400/30 data-[state=active]:to-purple-400/30 data-[state=active]:border-cyan-400 data-[state=active]:text-cyan-100 transition-all duration-300"
                   >
-                    Interests
+                    免許・資格
+                  </TabsTrigger>
+                  <TabsTrigger
+                    value="interests"
+                    className="relative bg-gradient-to-r from-white/10 to-white/5 border border-white/20 rounded-xl py-3 text-white hover:from-cyan-400/20 hover:to-purple-400/20 hover:border-cyan-400/50 data-[state=active]:from-cyan-400/30 data-[state=active]:to-purple-400/30 data-[state=active]:border-cyan-400 data-[state=active]:text-cyan-100 transition-all duration-300"
+                  >
+                    趣味
                   </TabsTrigger>
                 </TabsList>
 
-                {/* Миний тухай таб / About tab content */}
+                {/* 自己PRタブ / About tab content */}
                 <TabsContent value="about" className="space-y-6 mt-0">
                   <div className="relative p-6 bg-gradient-to-br from-cyan-400/10 via-purple-500/10 to-pink-500/10 rounded-2xl border border-cyan-400/20">
                     <h4 className="text-xl font-bold text-white mb-4">
-                      A passionate {personalInfo.title} based in {personalInfo.location}
+                      {personalInfo.location}在住の{personalInfo.title}
                     </h4>
-                    <p className="text-gray-300 leading-relaxed">
-                      {personalInfo.aboutSections?.mainDescription || "I'm a passionate full-stack developer with expertise in modern web technologies."}
-                    </p>
+                    <div className="space-y-4">
+                      <p className="text-gray-300 leading-relaxed">
+                        {personalInfo.aboutSections?.mainDescription}
+                      </p>
+                      <p className="text-gray-300 leading-relaxed">
+                        {personalInfo.aboutSections?.detailedDescription}
+                      </p>
+                      <p className="text-gray-300 leading-relaxed">
+                        {personalInfo.aboutSections?.professionalSummary}
+                      </p>
+                    </div>
                   </div>
                 </TabsContent>
 
-                {/* Боловсролын таб / Education tab content */}
+                {/* 学歴タブ / Education tab content */}
                 <TabsContent value="education" className="space-y-6 mt-0">
                   <div className="relative p-6 bg-gradient-to-br from-cyan-400/10 via-purple-500/10 to-pink-500/10 rounded-2xl border border-cyan-400/20">
                     <div className="flex items-center gap-3 mb-4">
                       <GraduationCap className="h-6 w-6 text-cyan-400" />
-                      <h3 className="text-lg font-bold text-cyan-400">Education</h3>
+                      <h3 className="text-lg font-bold text-cyan-400">学歴</h3>
                     </div>
                     <div className="space-y-4">
                       {personalInfo.education?.map((edu) => (
                         <div key={edu.id} className="p-4 bg-white/5 rounded-xl border border-white/10">
                           <h4 className="font-bold text-white">{edu.degree}</h4>
                           <p className="text-cyan-300 text-sm">{edu.institution}</p>
-                          <p className="text-gray-400 text-xs">{edu.period}</p>
-                          {/* Description removed to fix TypeScript error */}
-                        </div>
-                      )) || (
-                        <>
-                          {/* Fallback content if education data is not available */}
-                          <div className="p-4 bg-white/5 rounded-xl border border-white/10">
-                            <h4 className="font-bold text-white"></h4>
-                            <p className="text-cyan-300 text-sm">Mongolia National University</p>
-                            <p className="text-gray-400 text-xs">2018年9月 - 2024年5月</p>
+                          <div className="flex items-center gap-2 mt-1">
+                            <span className="text-gray-400 text-xs">{edu.period}</span>
+                            <span className="px-2 py-0.5 text-xs bg-cyan-400/10 text-cyan-300 rounded-full border border-cyan-400/20">{edu.type}</span>
                           </div>
-                        </>
-                      )}
+                        </div>
+                      ))}
                     </div>
                   </div>
                 </TabsContent>
 
-                {/* Сонирхлын таб / Interests tab content */}
+                {/* 免許・資格タブ / Certifications tab content */}
+                <TabsContent value="certifications" className="space-y-6 mt-0">
+                  <div className="relative p-6 bg-gradient-to-br from-green-400/10 via-cyan-400/10 to-purple-500/10 rounded-2xl border border-green-400/20">
+                    <div className="flex items-center gap-3 mb-4">
+                      <ShieldCheck className="h-6 w-6 text-green-400" />
+                      <h3 className="text-lg font-bold text-green-400">免許・資格</h3>
+                    </div>
+                    <div className="space-y-3">
+                      {personalInfo.certifications?.map((cert, index) => (
+                        <div key={index} className="flex items-center gap-4 p-3 bg-white/5 rounded-xl border border-white/10">
+                          <span className="text-cyan-400 text-sm font-mono whitespace-nowrap">{cert.year}</span>
+                          <span className="text-white text-sm">{cert.name}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </TabsContent>
+
+                {/* 趣味タブ / Interests tab content */}
                 <TabsContent value="interests" className="space-y-6 mt-0">
                   <div className="relative p-6 bg-gradient-to-br from-pink-400/10 via-cyan-400/10 to-purple-500/10 rounded-2xl border border-pink-400/20">
-                    <h4 className="text-xl font-bold text-white mb-4">My Interests</h4>
+                    <h4 className="text-xl font-bold text-white mb-4">趣味・興味</h4>
                     <div className="grid grid-cols-1 gap-3">
                       {personalInfo.interests.map((interest, index) => (
                         <div
@@ -193,11 +218,11 @@ export default function About() {
               {/* Хувийн мэдээлэл / Personal information */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8 pt-6 border-t border-white/10">
                 <div className="p-4 bg-gradient-to-br from-white/5 to-transparent rounded-xl border border-white/10">
-                  <p className="font-medium text-cyan-400 mb-1">Email:</p>
+                  <p className="font-medium text-cyan-400 mb-1">メール:</p>
                   <p className="text-white break-all">{personalInfo.email}</p>
                 </div>
                 <div className="p-4 bg-gradient-to-br from-white/5 to-transparent rounded-xl border border-white/10">
-                  <p className="font-medium text-cyan-400 mb-1">Availability:</p>
+                  <p className="font-medium text-cyan-400 mb-1">対応状況:</p>
                   <p className="text-white">{personalInfo.availability}</p>
                 </div>
               </div>
@@ -217,7 +242,7 @@ export default function About() {
                 > 
                   <Download className="w-6 h-6 text-cyan-400 group-hover:text-white transition-all duration-300" />
                   <span className="text-white font-medium text-lg group-hover:text-cyan-100 transition-all duration-300">
-                    Download Resume
+                    履歴書ダウンロード
                   </span>
                 </button>
               </div>
