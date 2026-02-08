@@ -444,7 +444,7 @@ export const projects = [
     title: "Virtual Mouse",
     description: "手のジェスチャーでコンピューターのマウスを制御するAIシステム",
     longDescription: "Pythonを使用したハンドジェスチャー認識＋バーチャルマウス制御システムです。OpenCVとMediaPipeを活用し、カメラを通じて手の動きを認識。マウスカーソルの移動、クリック、ドラッグ＆ドロップ、ダブルクリックなど、実際のマウスの全機能を手のジェスチャーで実現します。",
-    image: "https://images.unsplash.com/photo-1516796181074-bf453fbfa3e6?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=800&q=80",
     technologies: ["Python 3.11", "Flask", "OpenCV", "MediaPipe", "WebRTC"],
     githubUrl: "https://github.com/Hellobraincode-lesson/virtual_mouse",
     demoUrl: "https://github.com/Hellobraincode-lesson/virtual_mouse#demo",
