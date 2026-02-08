@@ -10,10 +10,10 @@ export const personalInfo = {
   name: "Lkhagvazaya Anu",
   nickname: "Anu", // Товч нэр / Short name
   nameJapanese: "ルハグバザヤ アヌ", // Япон хэл дээрх нэр / Japanese name
-  title: " Full-Stack Developer Student", // Албан тушаал / Job title
+  title: "フルスタック開発者（学生）", // Албан тушаал / Job title
   
   // Холбоо барих мэдээлэл / Contact Information
-  email: "lkhagvazaya.anu5@gmail.com",
+  email: "anulkhagvazaya5@gmail.com",
   phone: "070-8530-3840",
   location: "Yokohama, Japan",
   address: "Yokohama, Japan",
@@ -25,17 +25,17 @@ export const personalInfo = {
   gender: "Female",
   
   // Танилцуулга / Bio descriptions
-  bio: "I am a Full-Stack Developer Student with a passion for web development and a strong foundation in both front-end and back-end technologies.",
-  
-  longBio: "I am a dedicated Full-Stack Developer Student with a strong foundation in both front-end and back-end technologies. My journey in web development began with a curiosity for how things work behind the scenes, leading me to explore various programming languages and frameworks. I am particularly interested in creating user-friendly applications that solve real-world problems. Currently, I am honing my skills in modern web technologies and seeking opportunities to contribute to exciting projects.",
-  
-  description: "Welcome to my portfolio! I'm Anu, a passionate Full Stack Developer Student dedicated to crafting innovative web solutions. Explore my projects, skills, and journey in the world of web development.",
+  bio: "フルスタック開発を学んでいる学生です。Web開発に情熱を持ち、フロントエンドとバックエンドの両方に強い基盤を持っています。",
+
+  longBio: "フロントエンドとバックエンドの両方に強い基盤を持つフルスタック開発者の学生です。Web開発の旅は、裏側でどのように動いているのかという好奇心から始まり、さまざまなプログラミング言語やフレームワークを探求するようになりました。特に、実世界の問題を解決するユーザーフレンドリーなアプリケーションの開発に興味があります。現在、最新のWeb技術を磨きながら、エキサイティングなプロジェクトに貢献する機会を探しています。",
+
+  description: "ポートフォリオへようこそ！アヌです。革新的なWebソリューションの開発に情熱を注ぐフルスタック開発者の学生です。私のプロジェクト、スキル、Web開発の旅をご覧ください。",
   
   // Зураг / Images
-  avatar: "/porfolio.png", // public фолдер дотор байрлуулна / Place in public folder (filename corrected)
+  avatar: "/portfolio.png", // public фолдер дотор байрлуулна / Place in public folder (filename corrected)
   
   // Ажлын статус / Work Status
-  availability: "Available for freelance projects",
+  availability: "フリーランスプロジェクト受付中",
   // Resume URL (public folder)
   resumeUrl: "/resume.pdf",
 
@@ -47,10 +47,10 @@ export const personalInfo = {
   
   // Сонирхол / Interests
   interests: [
-    "Violin - I'm a beginner and love playing classical pieces",
-    "Language Learning ",
-    "Technical Drawing - Skilled in pencil drawing, especially automotive sketches in black and white",
-    "Automotive Technology - Studied automotive technology in Japan and Mongolia, worked in industrial maintenance"
+    "バイオリン - 初心者ですが、クラシック曲を弾くのが大好きです",
+    "語学学習",
+    "テクニカルドローイング - 鉛筆画が得意で、特に自動車のスケッチを描きます",
+    "自動車技術 - 日本とモンゴルで自動車技術を学び、産業メンテナンスの経験があります"
   ],
   
   // Боловсрол / Education
@@ -75,9 +75,9 @@ export const personalInfo = {
   
   // Миний тухай / About Me sections
   aboutSections: {
-    mainDescription: "I'm a passionate full-stack developer with expertise in modern web technologies. I love creating innovative solutions and bringing ideas to life through code.",
-    detailedDescription: "I'm a dedicated Full-Stack Developer Student with a strong foundation in both front-end and back-end technologies. My journey in web development began with a curiosity for how things work behind the scenes, leading me to explore various programming languages and frameworks. I am particularly interested in creating user-friendly applications that solve real-world problems. Currently, I am honing my skills in modern web technologies and seeking opportunities to contribute to exciting projects.",
-    professionalSummary: "I'm a Full-Stack Developer Student with a passion for creating innovative web solutions. My background in both front-end and back-end development allows me to build seamless and efficient applications. I'm constantly learning and adapting to new technologies to enhance my skill set and deliver high-quality work.",
+    mainDescription: "最新のWeb技術に精通したフルスタック開発者です。革新的なソリューションを作り、コードでアイデアを実現することが大好きです。",
+    detailedDescription: "フロントエンドとバックエンドの両方に強い基盤を持つフルスタック開発者の学生です。Web開発の旅は、裏側の仕組みへの好奇心から始まり、さまざまなプログラミング言語やフレームワークを探求してきました。実世界の問題を解決するユーザーフレンドリーなアプリケーションの開発に特に興味があります。",
+    professionalSummary: "革新的なWebソリューションの開発に情熱を持つフルスタック開発者の学生です。フロントエンドとバックエンドの両方の経験を活かし、シームレスで効率的なアプリケーションを構築します。常に新しい技術を学び、高品質な成果を提供します。",
   }
 };
 
@@ -86,8 +86,8 @@ export const personalInfo = {
 // =============================================================================
 // Нийгмийн сүлжээ болон гадаад холбоосууд / Social media and external links
 export const socialLinks = {
-  github: "https://github.com/Anu682-max/Anu682-max.git",
-  instagram: "https://www.instagram.com/Sakura.______/",
+  github: "https://github.com/Anu682-max/Portfolio",
+  instagram: "https://www.instagram.com/maris______/",
   facebook: "https://www.facebook.com/Л'Г Ану",
   email: "anulkhagvazaya5@gmail.com",
   // Дэмжлэгийн холбоосууд / Support links
@@ -102,17 +102,17 @@ export const socialLinks = {
 // Ур чадварын тохиргоо / Skills configuration
 export const skills = [
   {
-    category: "Frontend Development",
+    category: "フロントエンド開発",
     icon: "Layout",
     items: [
       { name: "React",  color: "#61DAFB" },
       { name: "JavaScript",  color: "#F7DF1E" },
-      { name: "HTML/CSS",  color: "#E34F26" },
+      { name: "AWS",  color: "#FF9900"},
 
     ]
   },
   {
-    category: "Backend Development",
+    category: "バックエンド開発",
     icon: "Server",
     items: [
       { name: "PHP",  color: "#777BB4" },
@@ -124,11 +124,11 @@ export const skills = [
     ]
   },
   {
-    category: "Languages",
+    category: "言語",
     icon: "Globe",
     items: [
-      { name: "Japanese (N3)",  color: "#FF6B6B" },
-      { name: "Mongolian (Native)",  color: "#45B7D1" }
+      { name: "日本語 (N3)",  color: "#FF6B6B" },
+      { name: "モンゴル語 (母国語)",  color: "#45B7D1" }
     ]
   }
 ];
@@ -139,7 +139,7 @@ export const skills = [
 // About хэсэгт харуулах статистик / Statistics for About section
 export const stats = [
   {
-    label: "Languages",
+    label: "言語",
     value: "2",
     icon: "*"
   }
@@ -153,181 +153,171 @@ export const projects = [
   {
     id: 1,
     title: "CatApp",
-    description: "Comprehensive programming learning platform with interactive coding tutorials",
-    longDescription: "A modern web-based programming education platform designed to help beginners and intermediate developers learn coding through interactive tutorials, hands-on exercises, and real-world projects. Features include multiple programming languages, progress tracking, and community support.",
+    description: "猫の写真を楽しめるインタラクティブなWebアプリ",
+    longDescription: "猫の写真を閲覧・共有できるモダンなWebアプリケーションです。React、HTML、TypeScriptを使用して構築され、ユーザーフレンドリーなインターフェースで猫の写真を楽しむことができます。",
     image: "/catapp.png",
     technologies: ["React", "HTML", "TypeScript"],
     githubUrl: "https://catphoto1.netlify.app/catapp",
     demoUrl: "https://catphoto1.netlify.app/",
     category: "fullstack",
     features: [
-      "Interactive coding tutorials",
-      "Multiple programming languages support",
-      "Progress tracking and analytics",
-      "Community-driven learning",
-      "Real-world project examples",
-      "Mobile-responsive design"
+      "猫の写真ギャラリー",
+      "レスポンシブデザイン",
+      "TypeScriptで型安全",
+      "ユーザーフレンドリーなUI"
     ],
     
   },
   {
     id: 2,
     title: "BuyMeCoffee",
-    description: "Advanced brain training and cognitive enhancement platform",
-    longDescription: "A sophisticated web application focused on cognitive enhancement and brain training exercises. Provides scientifically-backed brain training games, memory improvement techniques, and personalized learning paths to enhance mental performance.",
+    description: "クリエイターを応援するコーヒー購入プラットフォーム",
+    longDescription: "クリエイターを応援するためのWebアプリケーションです。React.js、HTML、CSSを使用して構築され、シンプルで使いやすいインターフェースを提供します。",
     image: "/BuyMeCoffee.png",
     technologies: ["React.js", "HTML", "CSS"],
     githubUrl: "https://github.com/Anu682-max/Anu682-max.github",
     demoUrl: "https://quiz-app-c66t.vercel.app/",
     category: "fullstack",
     features: [
-      "Cognitive assessment tools",
-      "Personalized training programs",
-      "Progress analytics and insights",
-      "Scientific brain training games",
-      "Memory enhancement exercises",
-      "Multi-language support"
+      "クリエイター支援機能",
+      "シンプルなUI",
+      "レスポンシブデザイン",
+      "モダンなWeb技術"
     ],
   },
   {
     id: 3,
     title: "BOOKSTORE",
-    description: "Professional typing speed and accuracy training platform",
-    longDescription: "A comprehensive typing training application designed to improve typing speed, accuracy, and overall keyboard proficiency. Features various typing tests, lessons, and games to make learning touch typing engaging and effective.",
+    description: "オンライン書店プラットフォーム。書籍の閲覧・管理機能付き",
+    longDescription: "JavaScript、HTML5、CSS3、Chart.jsを使用して構築されたオンライン書店アプリケーションです。書籍の一覧表示、検索、統計グラフの表示機能を備えています。",
     image: "/bookstore.png",
     technologies: ["JavaScript", "HTML5", "CSS3", "Chart.js", "Local Storage", ],
     githubUrl: "https://github.com/Anu682-max/",
     demoUrl: "https://6-3-4-direct-push-xxz8.vercel.app/",
     category: "frontend",
     features: [
-      "Real-time typing speed measurement",
-      "Accuracy tracking and analysis",
-      "Multiple typing test modes",
-      "Interactive typing lessons",
-      "Progress history and statistics",
-      "Customizable difficulty levels"
+      "書籍カタログ表示",
+      "Chart.jsによる統計グラフ",
+      "ローカルストレージでデータ保存",
+      "レスポンシブデザイン"
     ],
   },
   {
     id: 4,
     title: "Registration Project",
-    description: "Creative thinking and idea management platform",
-    longDescription: "An innovative web platform designed for creative professionals, entrepreneurs, and thinkers to organize, develop, and share their ideas. Provides tools for brainstorming, idea visualization, collaboration, and project planning.",
+    description: "フルスタックCRUDユーザー登録システム",
+    longDescription: "React、Node.js、Express、MongoDBを使用したフルスタックのユーザー登録・管理システムです。CRUD操作（作成・読取・更新・削除）の全機能を備えています。",
     image: "/Registration project.png",
     technologies: ["React", "Node.js", "Express", "MongoDB", ],
     githubUrl: "https://github.com/Anu682-max/",
     demoUrl: "https://splendorous-brioche-ba78e6.netlify.app/",
     category: "fullstack",
     features: [
-      "Idea organization and categorization",
-      "Visual brainstorming tools",
-      "Real-time collaboration",
-      "Project timeline management",
-      "Team workspace creation",
-      "Export and sharing capabilities"
+      "ユーザー登録・ログイン",
+      "CRUD操作（作成・読取・更新・削除）",
+      "MongoDBデータベース連携",
+      "RESTful API設計",
+      "レスポンシブデザイン"
     ],
   },
   {
     id: 5,
     title: "Burger Build",
-    description: "Advanced burger building simulation game",
-    longDescription: "A fun and interactive web-based game that allows users to create and customize their own burgers. Players can choose from a variety of ingredients, sauces, and toppings to build the ultimate burger. The game features engaging graphics, sound effects, and a user-friendly interface.",
+    description: "自分だけのバーガーを作れるインタラクティブゲーム",
+    longDescription: "HTML、CSS、JavaScriptで構築されたバーガー作成ゲームです。さまざまな具材やソースを選んで、オリジナルのバーガーを作ることができます。",
     image: "/Burger build.png",
     technologies: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://github.com/Anu682-max/",
     demoUrl: "https://burger-build-uadt.vercel.app/",
     category: "fullstack",
     features: [
-      "PDF merge and split functionality",
-      "Document format conversion",
-      "PDF compression and optimization",
-      "Secure file processing",
-      "Batch processing capabilities",
-      "No registration required"
+      "具材のカスタマイズ",
+      "インタラクティブなUI",
+      "楽しいグラフィックス",
+      "レスポンシブデザイン"
     ],
   },
   {
     id: 6,
     title: "FireMovie",
-    description: "Make your own burger. Choose ingredients and place an order",
-    longDescription: " A dynamic web application that serves as a comprehensive movie database and recommendation platform. Users can search for movies, view detailed information, read reviews, and get personalized recommendations based on their viewing history and preferences.",
+    description: "映画データベース＆おすすめプラットフォーム",
+    longDescription: "映画の検索、詳細情報の閲覧、レビューの確認、視聴履歴に基づくおすすめ映画の表示ができるWebアプリケーションです。React、JavaScript、CSSで構築されています。",
     image: "/FireMovie.png",
     technologies: ["React", "JavaScript", "CSS"],
     githubUrl: "https://github.com/Anu682-max/",
     demoUrl: "https://firemovie-git-main-anu682-maxs-projects.vercel.app/",
     category: "fullstack",
     features: [
-      "Extensive movie database",
-      "Personalized movie recommendations",
-      "User reviews and ratings",
-      "Advanced search and filtering options",
-      "Watchlist and favorites management",
-      "Responsive design for mobile and desktop"
+      "映画データベース検索",
+      "おすすめ映画の表示",
+      "レビュー・評価機能",
+      "詳細な検索・フィルター",
+      "ウォッチリスト管理",
+      "レスポンシブデザイン"
     ],
   },
   {    
     id: 7,
     title: "Burger-Ai",
-    description: "You can create your own burger with any ingredients you want and place an order right away",
-    longDescription: "Burger-Ai is an innovative web application that allows users to create their own custom burgers by selecting from a wide range of ingredients. Users can choose buns, patties, toppings, and sauces to build their perfect burger. Once satisfied with their creation, users can place an order for delivery or pickup.",
+    description: "好きな具材でオリジナルバーガーを作って注文できるアプリ",
+    longDescription: "Burger-Aiは、豊富な具材からオリジナルバーガーを作成できるWebアプリです。バンズ、パティ、トッピング、ソースを選んで理想のバーガーを作り、デリバリーまたはテイクアウトで注文できます。ReactとFirebaseで構築されています。",
     image: "/Burger-Ai.png",
     technologies: ["React","Firebase"],
     githubUrl: "https://github.com/Anu682-max/burger-ai",
     demoUrl: "https://burger-ai-eta.vercel.app/",
     category: "fullstack",
     features: [
-      "Custom burger creation",
-      "Wide range of ingredients",
-      "Order placement for delivery or pickup",
-      "User-friendly interface",
-      "Real-time order tracking",
-      "Responsive design"
+      "カスタムバーガー作成",
+      "豊富な具材の選択",
+      "デリバリー・テイクアウト注文",
+      "ユーザーフレンドリーなUI",
+      "リアルタイム注文追跡",
+      "レスポンシブデザイン"
     ],
   },
   {
     id: 8,
     title: "Burger land",
-    description: "Interactive burger restaurant management simulation",
-    longDescription: "An interactive burger restaurant management simulation game where players can manage orders, customize burgers, and optimize restaurant operations for maximum efficiency and customer satisfaction.",
+    description: "バーガーレストラン経営シミュレーションゲーム",
+    longDescription: "バーガーレストランの経営をシミュレーションするインタラクティブなゲームです。注文管理、バーガーのカスタマイズ、レストラン運営の最適化を体験できます。Next.jsとFirebaseで構築されています。",
     image: "/Burger land.png",
     technologies: [ "Next.js", "Firebase"],
     githubUrl: "https://github.com/Anu682-max/burger-butee",
     demoUrl: "https://burger-butee-gou8.vercel.app/",
     category: "fullstack",
     features: [
-      "Multiple-choice questions",
-      "Instant feedback",
-      "Score tracking",
-      "Category and difficulty selection",
-      "User-friendly interface",
-      "Responsive design"
+      "注文管理システム",
+      "バーガーカスタマイズ",
+      "スコア追跡",
+      "ユーザーフレンドリーなUI",
+      "レスポンシブデザイン"
     ],
   },
   {
     id: 9,
     title: "Company Website",
-    description: "A modern construction company website built with Next.js 15, Firebase, and Tailwind CSS. Features a complete admin dashboard for content management.",
-    longDescription: "This project is a comprehensive website for a construction company, developed using Next.js 15 for the frontend, Firebase for backend services, and Tailwind CSS for styling. The website includes a fully functional admin dashboard that allows administrators to manage content, update project information, and handle inquiries efficiently.",
+    description: "Next.js 15、Firebase、Tailwind CSSで構築された建設会社のWebサイト。管理ダッシュボード付き",
+    longDescription: "建設会社向けの総合Webサイトです。Next.js 15でフロントエンド、Firebaseでバックエンドサービス、Tailwind CSSでスタイリングを実現。管理者がコンテンツ管理、プロジェクト情報の更新、問い合わせ対応を効率的に行える管理ダッシュボードを搭載しています。",
     image: "/Company Website.png",
     technologies: ["Next.js 15", "Firebase", "Tailwind CSS"],
     githubUrl: "https://github.com/Anu682-max/studio",
     demoUrl: "https://company-website-demo.vercel.app/",
     category: "fullstack",
-    features: [ 
-      "Modern Design: Responsive design with Tailwind CSS",
-      "Admin Dashboard: Complete CMS for managing content",
-      "Firebase Integration: Authentication, Firestore database, Storage",
-      "Image Management: Smart image handling with fallback systems",
-      "Multilingual: Mongolian language interface",
-      "SEO Optimized: Server-side generation and meta tags",
-      "Performance: Optimized for Core Web Vitals"
+    features: [
+      "モダンデザイン：Tailwind CSSによるレスポンシブデザイン",
+      "管理ダッシュボード：コンテンツ管理CMS",
+      "Firebase連携：認証、Firestore、ストレージ",
+      "画像管理：フォールバック付きスマート画像処理",
+      "多言語対応：モンゴル語インターフェース",
+      "SEO最適化：サーバーサイド生成とメタタグ",
+      "パフォーマンス：Core Web Vitals最適化"
     ],
   },
   { 
     id: 10,  
     title: "shoe-sphere-connect",
-    description: "E-commerce platform for buying and selling shoes with user accounts and payment integration",
-    longDescription: "Shoe-Sphere-Connect is a full-featured e-commerce platform that allows users to buy and sell shoes online. The platform includes user account management, product listings, shopping cart functionality, and secure payment processing. Built with modern web technologies to ensure a seamless shopping experience.",
+    description: "靴のオンライン販売ECプラットフォーム。ユーザーアカウント・決済機能付き",
+    longDescription: "靴のオンライン売買ができるフル機能のECプラットフォームです。ユーザーアカウント管理、商品一覧、ショッピングカート、安全な決済処理を備えています。Vite、TypeScript、React、shadcn-uiで構築されています。",
     image: "/shoe-sphere-connect.png",
     technologies: 
     ["Vite",
@@ -343,94 +333,94 @@ export const projects = [
   {
     id: 11,  
     title: "MedShoes",
-    description: "Medical shoe e-commerce platform with user accounts and admin dashboard",
-    longDescription: "MedShoes is an e-commerce platform specializing in medical shoes. The platform features user account management, product listings, shopping cart functionality, and an admin dashboard for managing products and orders. Built with modern web technologies to provide a seamless shopping experience for customers.",
+    description: "医療用シューズ専門ECプラットフォーム。管理ダッシュボード付き",
+    longDescription: "医療用シューズに特化したECプラットフォームです。ユーザーアカウント管理、商品一覧、ショッピングカート、商品・注文管理の管理ダッシュボードを搭載。React 18、TypeScript、Supabaseで構築されています。",
     image: "/MedShoes.png",
     technologies: ["React 18", "TypeScript", "Vite", "Tailwind CSS", "shadcn/ui", "Supabase"],
     githubUrl: "https://github.com/Anu682-max/MedShoes",  
     demoUrl: "https://med-shoes-dih9.vercel.app/",
     category: "fullstack",
     features: [
-      "Product catalog with multilingual support (English/Mongolian)",
-      "Shopping cart functionality",
-      "Payment processing with credit/debit card support",
-      "Order management system",
-      "Responsive design for mobile and desktop"
+      "多言語対応商品カタログ（英語/モンゴル語）",
+      "ショッピングカート機能",
+      "クレジット・デビットカード決済",
+      "注文管理システム",
+      "モバイル・デスクトップ対応レスポンシブデザイン"
     ],
   },
   {    
     id: 12,  
     title: "Pv0-flappy-bird",
-    description: "This repository will stay in sync with your deployed chats on v0.app. Any changes you make to your deployed app will be automatically pushed to this repository from v0.app.Deployment",
-    longDescription: "Pv0-flappy-bird is a fun and addictive web-based game where players control a bird and navigate it through a series of obstacles. The game features simple controls, colorful graphics, and engaging gameplay that keeps players coming back for more.",
+    description: "ブラウザで遊べるFlappy Birdゲーム",
+    longDescription: "ブラウザで楽しめるFlappy Birdゲームです。シンプルな操作でプレイでき、カラフルなグラフィックスと中毒性のあるゲームプレイが特徴です。Next.jsとCSS3で構築されています。",
     image: "/Pv0-flappy-bird.png",
     technologies: ["CSS3", "Next.js"],
     githubUrl: "https://github.com/Anu682-max/v0-flappy-bird",
     demoUrl: "https://v0-flappy-bird-k2f8.vercel.app/",
     category: "frontend",   
     features: [
-      "Simple one-button controls",
-      "Increasing difficulty levels",
-      "Colorful graphics and animations",
-      "Score tracking and leaderboards",
-      "Responsive design for mobile and desktop", 
+      "ワンボタンのシンプル操作",
+      "難易度が上がるレベル",
+      "カラフルなグラフィックス",
+      "スコア追跡・ランキング",
+      "モバイル・デスクトップ対応"
     ],
   },
   {
     id: 13,
     title: "v0-newsletter-template",
-    description: "Responsive newsletter email template built with HTML and inline CSS for compatibility across email clients.",
-    longDescription: "Newsletter-template is a professionally designed and responsive email template for newsletters. Built with HTML and inline CSS, this template ensures compatibility across various email clients and devices. It features a clean layout, customizable sections, and a focus on readability to effectively communicate your message to subscribers.",
+    description: "メールクライアント対応のレスポンシブニュースレターテンプレート",
+    longDescription: "プロフェッショナルなデザインのレスポンシブメールニュースレターテンプレートです。HTMLとインラインCSSで構築され、各種メールクライアントやデバイスとの互換性を確保。クリーンなレイアウトとカスタマイズ可能なセクションで、読みやすさを重視しています。",
     technologies: ["Next.js", "CSS3"],
     image: "/v0-newsletter-template.png",
     githubUrl: "https://github.com/Anu682-max/v0-newsletter-template",
     demoUrl: "https://v0-newsletter-template-mr2e.vercel.app/en",
     category: "frontend",   
     features: [
-      "Responsive design for various email clients",
-      "Clean and customizable layout",
-      "Inline CSS for compatibility",
-      "Optimized for readability",
-      "Easy to customize sections", 
+      "各種メールクライアント対応レスポンシブデザイン",
+      "クリーンでカスタマイズ可能なレイアウト",
+      "互換性のためのインラインCSS",
+      "読みやすさに最適化",
+      "セクションの簡単カスタマイズ"
     ],
   },
   {
     id: 14,
     title: "Hotel.book",
-    description: "The management project is a modern, fast hotel booking platform built using Next.js 14, Tailwind CSS, and the Rakuten Travel API.",
-    longDescription: "Hotel.book is a cutting-edge hotel booking platform designed to provide users with a seamless and efficient way to find and book accommodations. Built with Next.js 14 for optimal performance, Tailwind CSS for a sleek user interface, and integrated with the Rakuten Travel API, Hotel.book offers a wide range of hotel options, real-time availability, and competitive pricing.",
+    description: "Next.js 14、Tailwind CSS、楽天トラベルAPIで構築されたホテル予約プラットフォーム",
+    longDescription: "Hotel.bookは、ユーザーが簡単にホテルを検索・予約できるプラットフォームです。Next.js 14で最適なパフォーマンス、Tailwind CSSで洗練されたUI、楽天トラベルAPIとの連携により、豊富なホテルオプション、リアルタイムの空室状況、競争力のある価格を提供します。",
     image: "/Hotel.book.png",
     technologies: ["Next.js 14", "Tailwind CSS", "Rakuten Travel API"],
     githubUrl: "https://github.com/Anu682-max/Hotel.book",  
     demoUrl: "https://hotel-book1.vercel.app/",
     category: "fullstack",
     features: [
-        "Seamless hotel search and booking",
-        "Real-time availability and pricing",
-        "User-friendly interface with Tailwind CSS",
-        "Integration with Rakuten Travel API",
-        "Responsive design for all devices"
+        "シームレスなホテル検索・予約",
+        "リアルタイムの空室・料金表示",
+        "Tailwind CSSによるユーザーフレンドリーなUI",
+        "楽天トラベルAPI連携",
+        "全デバイス対応レスポンシブデザイン"
     ],
   },
   {
     id: 15,
     title: "thread-supabase",
-    description: "A complete Social Media platform powered by Supabase. Log in with Google, post, like, and follow users.",
-    longDescription: "thread-supabase is a full-featured social media platform that allows users to connect, share content, and engage with others. Built using Supabase for backend services, the platform supports Google authentication, posting, liking, and following functionalities. Users can create profiles, share updates, and interact with a vibrant community.",                                                          
+    description: "Supabaseで構築された完全なSNSプラットフォーム。Google認証、投稿、いいね、フォロー機能付き",
+    longDescription: "thread-supabaseは、ユーザーがつながり、コンテンツを共有し、交流できるフル機能のSNSプラットフォームです。Supabaseをバックエンドに使用し、Google認証、投稿、いいね、フォロー機能をサポート。プロフィール作成、近況共有、コミュニティとの交流が可能です。",                                                          
     image: "/thread-supabase.png",  
     technologies: ["Supabase", "Node.js", "Google Authentication"],
     githubUrl: "https://github.com/Anu682-max/thread-supabase",
     demoUrl: "https://hotel-book1.vercel.app/",
     category: "fullstack",  
-    features: [ "Google OAuth Login",
-"Write a post (280 characters)",
-"Like/Unlike (Realtime)",
-"Follow/Unfollow",
-"Edit profile",
-"Create a community",
-"Post a story",
-"Send a message",
-"Dark UI theme" ],
+    features: [ "Google OAuthログイン",
+"投稿（280文字）",
+"いいね/取り消し（リアルタイム）",
+"フォロー/アンフォロー",
+"プロフィール編集",
+"コミュニティ作成",
+"ストーリー投稿",
+"メッセージ送信",
+"ダークUIテーマ" ],
   }
 ];
 
@@ -441,60 +431,60 @@ export const projects = [
 export const experiences = [
   {
     id: 1,
-    title: "Waiter",
+    title: "ウェイター",
     company: "Green Hill Restaurant",
-    period: "2022年5月 ",
-    date: "2023年9月 ",
-    location: "Mongolia",
-    type: "Part-time-job",
-    description: "Worked as a waiter in a busy restaurant, providing excellent customer service and ensuring a positive dining experience for guests.",
+    period: "2022年5月",
+    date: "2023年9月",
+    location: "モンゴル",
+    type: "アルバイト",
+    description: "忙しいレストランでウェイターとして勤務。優れた接客サービスを提供し、お客様に快適な食事体験を提供しました。",
     responsibilities: [
-      "Taking customer orders and serving food and beverages",
-      "Maintaining cleanliness and organization of the dining area",
-      "Assisting with menu recommendations and answering customer inquiries",
-      "Collaborating with kitchen staff to ensure timely order delivery",
-      "Developing internal automation tools"
+      "お客様の注文受付と料理・飲料の提供",
+      "ダイニングエリアの清潔さと整理整頓の維持",
+      "メニューのおすすめと問い合わせ対応",
+      "キッチンスタッフとの連携で迅速な注文配達",
+      "社内自動化ツールの開発"
     ],
-    technologies: ["Customer Service", "Food & Beverage Service", "Team Collaboration"]
+    technologies: ["接客サービス", "飲食サービス", "チーム協力"]
   },
     {
     id: 2,
-    title: "Part-time A",
+    title: "オートメーションエンジニア（パートタイム）",
     company: "Data Mongolia LLC",
-    period: "2024年6月 - 2022年12月",
-    date: "2024年6月 - 2022年12月",
-    location: "Mongolia",
-    type: "Part-time-job",
-    description: "Worked as a part-time automation engineer in a coal mining company, focusing on developing and implementing automation solutions for mining operations.",
+    period: "2022年6月 - 2024年12月",
+    date: "2022年6月 - 2024年12月",
+    location: "モンゴル",
+    type: "アルバイト",
+    description: "石炭採掘会社でパートタイムのオートメーションエンジニアとして勤務。採掘オペレーションの自動化ソリューションの開発・導入に従事しました。",
     responsibilities: [
-      "Designed and implemented mining automation systems",
-      "Developed custom software for coal mining operations",
-      "AutoCAD technical drawings and system design",
-      "Equipment programming and maintenance",
-      "Project management and technical documentation"
+      "採掘自動化システムの設計・導入",
+      "石炭採掘オペレーション向けカスタムソフトウェア開発",
+      "AutoCADによる技術図面・システム設計",
+      "設備プログラミング・メンテナンス",
+      "プロジェクト管理・技術文書作成"
     ],
-    technologies: ["Automation Systems", "AutoCAD", "Equipment Programming", "Project Management"]
+    technologies: ["自動化システム", "AutoCAD", "設備プログラミング", "プロジェクト管理"]
   },
   {
     id: 3,
-    title: "Distribute Newspapers",
-    company: "Yomiuri Shimbun, Japan",
+    title: "新聞配達",
+    company: "読売新聞",
     period: "2024年6月 - 2025年3月",
     date: "2024年9月 - 2025年5月",
-    location: "Japan",
-    type: "Full-time",
-    description: "Worked as a newspaper distributor in Japan, ensuring timely and accurate delivery of newspapers to subscribers in the assigned area.",
+    location: "日本",
+    type: "正社員",
+    description: "日本で新聞配達員として勤務。担当エリアの購読者への正確でタイムリーな新聞配達を行いました。",
     responsibilities: [
-      "Newspaper delivery and distribution",
-      "Route planning and optimization",
-      "Customer service and support",
-      "Inventory management and reporting",
-      "Collaboration with editorial team"
+      "新聞の配達・配布",
+      "配達ルートの計画・最適化",
+      "顧客サービス・サポート",
+      "在庫管理・報告",
+      "編集チームとの連携"
     ],
     achievements: [
-      "Increased delivery efficiency by 30% through optimized routing",
-      "Implemented digital tracking system for newspaper distribution",
-      "Trained 5+ new distributors on delivery procedures and customer service"
+      "最適化されたルーティングにより配達効率を30%向上",
+      "新聞配達用デジタル追跡システムの導入",
+      "5名以上の新規配達員への配達手順・接客研修"
     ],
   }
 ];
@@ -505,49 +495,49 @@ export const experiences = [
 // Холбоо барих мэдээллийн жагсаалт / Contact information list
 export const contactInfo = [
   {
-    label: "Email",
-    title: "Email",
+    label: "メール",
+    title: "メール",
     value: personalInfo.email,
     icon: Mail,
     href: `mailto:${personalInfo.email}`,
     link: `mailto:${personalInfo.email}`
   },
   {
-    label: "Phone",
-    title: "Phone",
+    label: "電話",
+    title: "電話",
     value: personalInfo.phone,
     icon: Phone,
     href: `tel:${personalInfo.phone}`,
     link: `tel:${personalInfo.phone}`
   },
   {
-    label: "Location",
-    title: "Location",
+    label: "所在地",
+    title: "所在地",
     value: personalInfo.location,
     icon: MapPin,
     href: "#",
     link: "#"
   },
   {
-    label: "Address",
-    title: "Address",
+    label: "住所",
+    title: "住所",
     value: personalInfo.address,
     icon: MapPin,
     href: "#",
     link: "#"
   },
   {
-    label: "Availability",
-    title: "Availability",
+    label: "対応状況",
+    title: "対応状況",
     value: personalInfo.availability,
     icon: Clock,
     href: "#",
     link: "#"
   },
   {
-    label: "Response Time",
-    title: "Response Time",
-    value: "Within 24 hours",
+    label: "返信時間",
+    title: "返信時間",
+    value: "24時間以内",
     icon: Clock,
     href: "#",
     link: "#"
@@ -561,13 +551,13 @@ export const contactInfo = [
 export const supportLinks = {
   buyMeCoffee: {
     url: socialLinks.buyMeCoffee,
-    text: "Buy me a coffee",
+    text: "コーヒーをおごる",
     icon: Coffee,
     enabled: true // false болговол харагдахгүй / Set to false to hide
   },
   paypal: {
     url: socialLinks.paypal,
-    text: "Support via PayPal",
+    text: "PayPalで支援する",
     icon: Mail,
     enabled: false // PayPal ашиглахгүй бол false / Set to false if not using PayPal
   }
@@ -581,13 +571,13 @@ export const seoData = {
   title: `${personalInfo.name} - ${personalInfo.title}`,
   description: personalInfo.description,
   keywords: [
-    " Full-Stack Developer",
-    "PHP Developer",
-    "React Developer",
-    "JavaScript Developer",
-    "Japan Developer",
-    "N3 Japanese",
-    "Web Development",
+    "フルスタック開発者",
+    "PHP開発者",
+    "React開発者",
+    "JavaScript開発者",
+    "日本の開発者",
+    "日本語N3",
+    "Web開発",
     personalInfo.name
   ],
   author: personalInfo.name,
@@ -623,11 +613,11 @@ export const themeConfig = {
 export const navigationConfig = {
   // Цэсний элементүүд / Menu items
   menuItems: [
-    { id: "home", label: "Home", href: "#home" },
-    { id: "about", label: "About", href: "#about" },
-    { id: "projects", label: "Projects", href: "#projects" },
-    { id: "skills", label: "Skills", href: "#skills" },
-    { id: "contact", label: "Contact", href: "#contact" }
+    { id: "home", label: "ホーム", href: "#home" },
+    { id: "about", label: "自己紹介", href: "#about" },
+    { id: "projects", label: "プロジェクト", href: "#projects" },
+    { id: "skills", label: "スキル", href: "#skills" },
+    { id: "contact", label: "お問い合わせ", href: "#contact" }
   ],
   
   // Лого тохиргоо / Logo configuration
