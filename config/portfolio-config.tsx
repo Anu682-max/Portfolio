@@ -14,7 +14,7 @@ export const personalInfo = {
   
   // Холбоо барих мэдээлэл / Contact Information
   email: "anulkhagvazaya5@gmail.com",
-  phone: "070-8530-3580",
+  phone: "070-8530-3840",
   location: "横浜市緑区、神奈川県",
   address: "〒225-0026 神奈川県横浜市緑区十日市場ホウメステW-529",
   
@@ -88,6 +88,8 @@ export const personalInfo = {
     { year: "2025年7月", name: "日本語能力試験 N3 合格" },
     { year: "2026年1月", name: "介護日本語評価テスト（日本語）合格" },
     { year: "2026年1月", name: "介護評価試験（モンゴル語）合格" },
+    { year: "2026年2月", name: "SQLデータベース知識認定試験 合格（97%）" },
+    { year: "2026年2月", name: "AWSクラウド基礎知識認定試験 合格（100%）" },
   ],
   
   // Миний тухай / About Me sections
