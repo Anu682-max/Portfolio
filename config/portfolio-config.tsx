@@ -403,65 +403,6 @@ export const projects = [
       "セクションの簡単カスタマイズ"
     ],
   },
-  {
-    id: 14,
-    title: "Hotel.book",
-    description: "Next.js 14、Tailwind CSS、楽天トラベルAPIで構築されたホテル予約プラットフォーム",
-    longDescription: "Hotel.bookは、ユーザーが簡単にホテルを検索・予約できるプラットフォームです。Next.js 14で最適なパフォーマンス、Tailwind CSSで洗練されたUI、楽天トラベルAPIとの連携により、豊富なホテルオプション、リアルタイムの空室状況、競争力のある価格を提供します。",
-    image: "/Hotel.book.png",
-    technologies: ["Next.js 14", "Tailwind CSS", "Rakuten Travel API"],
-    githubUrl: "https://github.com/Anu682-max/Hotel.book",  
-    demoUrl: "https://hotel-book1.vercel.app/",
-    category: "fullstack",
-    features: [
-        "シームレスなホテル検索・予約",
-        "リアルタイムの空室・料金表示",
-        "Tailwind CSSによるユーザーフレンドリーなUI",
-        "楽天トラベルAPI連携",
-        "全デバイス対応レスポンシブデザイン"
-    ],
-  },
-  {
-    id: 15,
-    title: "thread-supabase",
-    description: "Supabaseで構築された完全なSNSプラットフォーム。Google認証、投稿、いいね、フォロー機能付き",
-    longDescription: "thread-supabaseは、ユーザーがつながり、コンテンツを共有し、交流できるフル機能のSNSプラットフォームです。Supabaseをバックエンドに使用し、Google認証、投稿、いいね、フォロー機能をサポート。プロフィール作成、近況共有、コミュニティとの交流が可能です。",                                                          
-    image: "/thread-supabase.png",  
-    technologies: ["Supabase", "Node.js", "Google Authentication"],
-    githubUrl: "https://github.com/Anu682-max/thread-supabase",
-    demoUrl: "https://hotel-book1.vercel.app/",
-    category: "fullstack",  
-    features: [ "Google OAuthログイン",
-"投稿（280文字）",
-"いいね/取り消し（リアルタイム）",
-"フォロー/アンフォロー",
-"プロフィール編集",
-"コミュニティ作成",
-"ストーリー投稿",
-"メッセージ送信",
-"ダークUIテーマ" ],
-  },
-  {
-    id: 16,
-    title: "Virtual Mouse",
-    description: "手のジェスチャーでコンピューターのマウスを制御するAIシステム",
-    longDescription: "Pythonを使用したハンドジェスチャー認識＋バーチャルマウス制御システムです。OpenCVとMediaPipeを活用し、カメラを通じて手の動きを認識。マウスカーソルの移動、クリック、ドラッグ＆ドロップ、ダブルクリックなど、実際のマウスの全機能を手のジェスチャーで実現します。",
-    image: "/gesture_demo.mp4",
-    technologies: ["Python 3.11", "Flask", "OpenCV", "MediaPipe", "WebRTC"],
-    githubUrl: "https://github.com/Anu682-max/virtual_mouse",
-    demoUrl: "https://github.com/Anu682-max/virtual_mouse#demo",
-    category: "backend",
-    features: [
-      "手のジェスチャーでマウス制御",
-      "カーソル移動・クリック・ドラッグ対応",
-      "OpenCV + MediaPipeによるリアルタイム認識",
-      "5種類の手のジェスチャー（1本指、2本指、3本指、親指、5本指）",
-      "WebRTCによるビデオストリーミング",
-      "Flaskバックエンド",
-      "タッチレス操作で衛生的",
-      "リアルタイムデモ動画あり"
-    ],
-  }
 ];
 
 // =============================================================================
