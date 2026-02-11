@@ -189,7 +189,17 @@ export default function About() {
                       {personalInfo.certifications?.map((cert, index) => (
                         <div key={index} className="flex items-center gap-4 p-3 bg-white/5 rounded-xl border border-white/10">
                           <span className="text-cyan-400 text-sm font-mono whitespace-nowrap">{cert.year}</span>
-                          <span className="text-white text-sm">{cert.name}</span>
+                          <span className="text-white text-sm flex-1">{cert.name}</span>
+                          {(cert as any).pdf && (
+                            <a
+                              href={(cert as any).pdf}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-xs px-3 py-1 bg-cyan-400/20 text-cyan-400 rounded-full border border-cyan-400/30 hover:bg-cyan-400/30 transition-colors whitespace-nowrap"
+                            >
+                              PDF
+                            </a>
+                          )}
                         </div>
                       ))}
                     </div>

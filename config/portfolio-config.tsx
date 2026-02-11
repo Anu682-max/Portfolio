@@ -90,6 +90,9 @@ export const personalInfo = {
     { year: "2026年1月", name: "介護評価試験（モンゴル語）合格" },
     { year: "2026年2月", name: "SQLデータベース知識認定試験 合格（97%）" },
     { year: "2026年2月", name: "AWSクラウド基礎知識認定試験 合格（100%）" },
+    { year: "2026年2月", name: "HelloBrainCode - Master Tech Skills 3", pdf: "/HelloBrainCode - Master Tech Skills3.pdf" },
+    { year: "2026年2月", name: "HelloBrainCode - Master Tech Skills 4", pdf: "/HelloBrainCode - Master Tech Skills4.pdf" },
+    { year: "2026年2月", name: "HelloBrainCode - Master Tech Skills 5", pdf: "/HelloBrainCode - Master Tech Skills5.pdf" },
   ],
   
   // Миний тухай / About Me sections
@@ -403,6 +406,64 @@ export const projects = [
       "セクションの簡単カスタマイズ"
     ],
   },
+  {
+    id: 14,  
+    title: "Hotel Reservation App",
+    description: "このプロジェクトは、Next.js 14、Tailwind CSS、Rakuten Travel API を使用して構築された、最新の高速ホテル予約プラットフォームです。",
+    longDescription: "ホテルの予約を簡単に管理できるWebアプリケーションです。予約の作成、閲覧、更新、キャンセルが可能で、ユーザーフレンドリーなインターフェースを提供します。React、Node.js、Express、MongoDBで構築されています。",   
+    image: "/Hotel.book.png",
+    technologies: ["Tailwind CSS", "Next.js", "Rakuten", "Supabase"],
+    githubUrl: "ps://github.com/Anu682-max/Hotel.book",
+    demoUrl: "https://hotel-book1.vercel.app/",
+    category: "fullstack",          
+    features: [    
+      "ホテル検索・予約機能",
+      "ユーザープロフィール管理",
+      "レスポンシブデザイン",
+      "多言語対応（英語・日本語）",
+    ],
+  },
+  {
+    id: 15,
+    title: "Thread-Supabase",
+    description: "Supabaseが提供する、包括的なソーシャルメディアプラットフォーム。Googleアカウントでログインし、投稿、いいね、フォローが可能です。",
+    longDescription: "ユーザーがスレッド形式でディスカッションを行えるWebアプリケーションです。Supabaseをバックエンドに使用し、リアルタイムのコメント機能とユーザープロフィール管理を備えています。ReactとTypeScriptで構築されています。",
+    image: "/thread-supabase.png",
+    technologies: ["React", "TypeScript", "Supabase"],
+    githubUrl: "https://github.com/Anu682-max/thread-supabase",
+    demoUrl: "https://thread-git-main-anu682-maxs-projects.vercel.app/",
+    category: "fullstack",
+    features: [ "Google OAuth ログイン",
+"投稿を書く（280文字）",
+"いいね/いいね解除（リアルタイム）",
+"フォロー/フォロー解除",
+"プロフィールを編集",
+"コミュニティを作成",
+"ストーリーを投稿",
+"メッセージを送信",
+"ダーク UIモード対応",
+    ],
+  },
+  {
+    id: 16,
+    title: "Virtual Mouse - Hand Gesture",
+    description: "Pythonで構築されたハンドジェスチャー認識システム。Webカメラで手の動きを検出し、仮想マウスとしてPC操作が可能です。",
+    longDescription: "OpenCVとMediaPipeを使用したハンドジェスチャー認識と仮想マウス制御システムです。Webカメラを通じて手のジェスチャーを検出し、カーソル移動、クリック、ドラッグ＆ドロップなど、マウスの全機能を手の動きだけで操作できます。Python、Flask、WebRTCで構築されています。",
+    image: "/gesture_demo.mp4",
+    technologies: ["Python", "OpenCV", "MediaPipe", "Flask", "WebRTC"],
+    githubUrl: "https://github.com/Anu682-max/Portfolio",
+    demoUrl: "",
+    category: "fullstack",
+    features: [
+      "1本指でカーソル移動",
+      "2本指で左クリック",
+      "3本指でドラッグ＆ドロップ",
+      "親指でダブルクリック",
+      "5本指で停止/キャンセル",
+      "リアルタイムジェスチャー認識",
+      "WebRTCカメラストリーミング"
+    ],
+  }
 ];
 
 // =============================================================================
