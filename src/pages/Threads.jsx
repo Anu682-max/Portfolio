@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { supabase } from '../lib/supabase'
+import { query } from '../lib/supabase'
 
 const DEMO_THREADS = [
   { id: 1, title: 'Best time to visit Terelj?', author: 'Bat-Erdene', content: 'Planning a trip to Terelj National Park. When is the best season?', replies_count: 5, created_at: '2026-02-10' },
@@ -15,7 +15,7 @@ export default function Threads() {
 
   useEffect(() => {
     async function fetchThreads() {
-      const { data } = await supabase.from('threads').select('*').order('created_at', { ascending: false })
+      const { data } = await query((s) => s.from('threads').select('*').order('created_at', { ascending: false }))
       if (data && data.length > 0) setThreads(data)
     }
     fetchThreads()
@@ -25,7 +25,7 @@ export default function Threads() {
     e.preventDefault()
     const thread = { ...newThread, replies_count: 0, created_at: new Date().toISOString().split('T')[0] }
 
-    const { data, error } = await supabase.from('threads').insert(thread).select().single()
+    const { data, error } = await query((s) => s.from('threads').insert(thread).select().single())
 
     if (data) {
       setThreads([data, ...threads])

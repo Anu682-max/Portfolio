@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react'
-import { supabase } from '../lib/supabase'
+import { query } from '../lib/supabase'
 
 export default function MyBookings() {
   const [bookings, setBookings] = useState([])
 
   useEffect(() => {
     async function fetchBookings() {
-      const { data } = await supabase.from('bookings').select('*').order('created_at', { ascending: false })
+      const { data } = await query((s) => s.from('bookings').select('*').order('created_at', { ascending: false }))
       if (data) setBookings(data)
     }
     fetchBookings()

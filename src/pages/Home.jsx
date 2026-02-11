@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { supabase } from '../lib/supabase'
+import { query } from '../lib/supabase'
 
 const DEMO_HOTELS = [
   { id: 1, name: 'Blue Sky Hotel', location: 'Ulaanbaatar', price: 120, rating: 4.5, image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop', description: 'Modern hotel in the heart of the city' },
@@ -17,7 +17,7 @@ export default function Home() {
 
   useEffect(() => {
     async function fetchHotels() {
-      const { data } = await supabase.from('hotels').select('*')
+      const { data } = await query((s) => s.from('hotels').select('*'))
       if (data && data.length > 0) setHotels(data)
     }
     fetchHotels()

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { supabase } from '../lib/supabase'
+import { query } from '../lib/supabase'
 
 const DEMO_THREADS = [
   { id: 1, title: 'Best time to visit Terelj?', author: 'Bat-Erdene', content: 'Planning a trip to Terelj National Park. When is the best season to visit? I want good weather for hiking and horseback riding.', created_at: '2026-02-10' },
@@ -30,7 +30,7 @@ export default function ThreadDetail() {
 
   useEffect(() => {
     async function fetchThread() {
-      const { data } = await supabase.from('threads').select('*').eq('id', id).single()
+      const { data } = await query((s) => s.from('threads').select('*').eq('id', id).single())
       if (data) {
         setThread(data)
       } else {
@@ -39,7 +39,7 @@ export default function ThreadDetail() {
     }
 
     async function fetchReplies() {
-      const { data } = await supabase.from('replies').select('*').eq('thread_id', id).order('created_at', { ascending: true })
+      const { data } = await query((s) => s.from('replies').select('*').eq('thread_id', id).order('created_at', { ascending: true }))
       if (data && data.length > 0) {
         setReplies(data)
       } else {
@@ -55,7 +55,7 @@ export default function ThreadDetail() {
     e.preventDefault()
     const reply = { ...newReply, thread_id: Number(id), created_at: new Date().toISOString().split('T')[0] }
 
-    const { data } = await supabase.from('replies').insert(reply).select().single()
+    const { data } = await query((s) => s.from('replies').insert(reply).select().single())
 
     if (data) {
       setReplies([...replies, data])

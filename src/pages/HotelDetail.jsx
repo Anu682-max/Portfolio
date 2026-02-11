@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { supabase } from '../lib/supabase'
+import { query } from '../lib/supabase'
 
 const DEMO_HOTELS = [
   { id: 1, name: 'Blue Sky Hotel', location: 'Ulaanbaatar', price: 120, rating: 4.5, image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=400&fit=crop', description: 'Modern hotel in the heart of the city with luxury amenities, rooftop restaurant, and stunning city views.' },
@@ -20,7 +20,7 @@ export default function HotelDetail() {
 
   useEffect(() => {
     async function fetchHotel() {
-      const { data } = await supabase.from('hotels').select('*').eq('id', id).single()
+      const { data } = await query((s) => s.from('hotels').select('*').eq('id', id).single())
       if (data) {
         setHotel(data)
       } else {
@@ -34,11 +34,11 @@ export default function HotelDetail() {
     e.preventDefault()
     setLoading(true)
 
-    const { error } = await supabase.from('bookings').insert({
+    const { error } = await query((s) => s.from('bookings').insert({
       hotel_id: Number(id),
       hotel_name: hotel.name,
       ...booking,
-    })
+    }))
 
     if (error) {
       // Demo mode - just show success
