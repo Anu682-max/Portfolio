@@ -90,9 +90,10 @@ export const personalInfo = {
     { year: "2026年1月", name: "介護評価試験（モンゴル語）合格" },
     { year: "2026年2月", name: "SQLデータベース知識認定試験 合格（97%）" },
     { year: "2026年2月", name: "AWSクラウド基礎知識認定試験 合格（100%）" },
-    { year: "2026年2月", name: "HelloBrainCode - Master Tech Skills 3", pdf: "/HelloBrainCode - Master Tech Skills3.pdf" },
-    { year: "2026年2月", name: "HelloBrainCode - Master Tech Skills 4", pdf: "/HelloBrainCode - Master Tech Skills4.pdf" },
-    { year: "2026年2月", name: "HelloBrainCode - Master Tech Skills 5", pdf: "/HelloBrainCode - Master Tech Skills5.pdf" },
+    { year: "2026年2月", name: "HelloBrainCode - Master Tech Skills 3", pdf: "/HelloBrainCode-MasterTechSkills3.pdf" },
+    { year: "2026年2月", name: "HelloBrainCode - Master Tech Skills 4", pdf: "/HelloBrainCode-MasterTechSkills4.pdf" },
+    { year: "2026年2月", name: "HelloBrainCode - Master Tech Skills 5", pdf: "/HelloBrainCode-MasterTechSkills5.pdf" },
+    { year: "2026年2月", name: "HelloBrainCode - Master Tech Skills Diploma", pdf: "/HelloBrainCode-MasterTechSkills-diploma.pdf" },
   ],
   
   // Миний тухай / About Me sections
